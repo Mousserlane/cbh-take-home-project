@@ -39,3 +39,6 @@ e. 8 is for extra large tasks that'll took a week to finished.
 3. create a function `getCustomAgentId` to get the data from  `FacilityAgent` table. This is the function will get the generated custom agent id.
    1. Acceptance criteria: Unit test, Function should take `agentId` as its parameter & will return the custom ID. This is all assuming that Agents can only work for one facility.
    2. Time estimate: 3
+4. Incoroprate the `getCustomAgentId` to the `getShiftsByFacility` function.
+   1. Acceptance criteria: Unit test—add `getCustomAgentId` as mock function.
+   2. Time estimate: 2
